@@ -11,6 +11,12 @@ Using `zsh/5.6.2` as an example.
 - Add a new line like `/usr/local/Cellar/zsh/5.6.2/bin/zsh` to `/etc/shells`
 - Change shell -> `chsh -s /usr/local/Cellar/zsh/5.6.2/bin/zsh`
 
+## HOWTO : Compute MySQL RIBPS [source](https://dba.stackexchange.com/questions/39467/mysql-performance-impact-of-increasing-innodb-buffer-pool-size)
+
+```
+SELECT CEILING(SUM(data_length+index_length)/POWER(1024,2)) RIBPS FROM information_schema.tables WHERE engine='InnoDB';
+```
+
 ## Books
 
 | Author | Title |
