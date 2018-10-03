@@ -1,20 +1,28 @@
 # Dev Notes
 
-## HOWTO : Unstash only certain files? [source](https://stackoverflow.com/questions/15264553/how-to-unstash-only-certain-files/22555169)
+## HOWTO : Git : Unstash only one particular file [source](https://stackoverflow.com/questions/15264553/how-to-unstash-only-certain-files/22555169)
 
 `git checkout stash@{0} -- <filename>`
 
-## HOWTO : Change MacOS default shell [source](https://admin-serv.net/blog/560/debian-changer-le-shell-par-defaut-avec-chsh/)
+## HOWTO : MacOS : Change default shell [source](https://admin-serv.net/blog/560/debian-changer-le-shell-par-defaut-avec-chsh/)
 
 Using `zsh/5.6.2` as an example.
 
 - Add a new line like `/usr/local/Cellar/zsh/5.6.2/bin/zsh` to `/etc/shells`
 - Change shell -> `chsh -s /usr/local/Cellar/zsh/5.6.2/bin/zsh`
 
-## HOWTO : Compute MySQL RIBPS [source](https://dba.stackexchange.com/questions/39467/mysql-performance-impact-of-increasing-innodb-buffer-pool-size)
+## HOWTO : MySQL : Compute RIBPS [source](https://dba.stackexchange.com/questions/39467/mysql-performance-impact-of-increasing-innodb-buffer-pool-size)
+
+RIBPS stands for `Recommended InnoDB Buffer Pool Size`
 
 ```
 SELECT CEILING(SUM(data_length+index_length)/POWER(1024,2)) RIBPS FROM information_schema.tables WHERE engine='InnoDB';
+```
+
+## HOWTO : Git : Diff of the same file between 2 tags [source](https://stackoverflow.com/questions/3211809/how-to-compare-two-tags)
+
+```
+git diff v1.10.2 v2.1.0 -- path/to/my/file
 ```
 
 ## Books
