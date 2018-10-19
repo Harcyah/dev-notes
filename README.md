@@ -27,7 +27,6 @@ git diff v1.10.2 v2.1.0 -- path/to/my/file
 
 ## HOWTO : Sheel : Print even or odd lines [source](https://unix.stackexchange.com/questions/26723/print-odd-numbered-lines-print-even-numbered-lines)
 
-
 Even lines
 ```
 sed -n 'n;p' /path/to/file
@@ -37,6 +36,15 @@ Odd Lines
 ```
 sed -n 'p;n' /path/to/file
 ```
+
+## HOWTO : Intellij : Create unit or integration tests configuration
+
+- Create JUnit run/debug configuration
+- Use `Pattern` test kind
+- Set pattern to `^.*IntegrationTest$` to only run integration tests
+- Set pattern to `^(?!.*IntegrationTest$).*$` to only run unit tests
+
+This configuration obviously depends on a correct class naming pattern :)
 
 ## Books
 
