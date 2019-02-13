@@ -48,17 +48,20 @@ This configuration obviously depends on a correct class naming pattern :)
 
 ## Books
 
-| Author | Title |
-|---|--|
-| Andrew Hunt | 	The Pragmatic Programmer: From Journeyman to Master |
-| Edmond Lau |	The Effective Engineer |
-| Martin Fowler |	Refactoring: Improving the Design of Existing Code |
-| Peter Seibel |	Coders at Work: Reflections on the Craft of Programming |
-| Robert C. Martin |	Clean Code: A Handbook of Agile Software Craftsmanship |
-| Robert C. Martin |	The Clean Coder: A Code of Conduct for Professional Programmers |
-| Sandro Mancuso |	The Software Craftsman: Professionalism, Pragmatism, Pride |
-| Steve Freeman |	Growing Object-Oriented Software, Guided by Tests |
-| Steve McConnell |	Code Complete |
+| Author(s) | Title |
+|---|---|
+| Andrew Hunt | The Pragmatic Programmer: From Journeyman to Master |
+| Edmond Lau | The Effective Engineer |
+| Martin Fowler | Refactoring: Improving the Design of Existing Code |
+| Peter Seibel | Coders at Work: Reflections on the Craft of Programming |
+| Robert C. Martin | Clean Code: A Handbook of Agile Software Craftsmanship |
+| Robert C. Martin | The Clean Coder: A Code of Conduct for Professional Programmers |
+| Sandro Mancuso | The Software Craftsman: Professionalism, Pragmatism, Pride |
+| Steve Freeman | Growing Object-Oriented Software, Guided by Tests |
+| Steve McConnell | Code Complete |
+| Alan Shalloway, Scott Bain, Ken Pugh & Amir Kolsky | Essential Skills for the Agile Developer: A Guide to Better Programming and Design |
+| John Sonmez | Soft Skills: The software developer's life manual |
+| Eric Freeman, Bert Bates, Kathy Sierra, Elisabeth Robson | Head First Design Patterns: A Brain-Friendly Guide |
 
 ## Things I don't know
 
