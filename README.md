@@ -19,6 +19,12 @@ RIBPS stands for `Recommended InnoDB Buffer Pool Size`
 SELECT CEILING(SUM(data_length+index_length)/POWER(1024,2)) RIBPS FROM information_schema.tables WHERE engine='InnoDB';
 ```
 
+## HOWTO : Docker : Start bash in running container [source](https://gist.github.com/mitchwongho/11266726)
+
+```
+docker run -it <container> /bin/bash
+```
+
 ## HOWTO : Git : Diff of the same file between 2 tags [source](https://stackoverflow.com/questions/3211809/how-to-compare-two-tags)
 
 ```
