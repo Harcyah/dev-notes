@@ -31,6 +31,13 @@ git diff v1.10.2 v2.1.0 -- path/to/my/file
 %~dp0
 ```
 
+## HOWTO : Batch : Move all files from subfolders to another folder [source](https://www.winhelponline.com/blog/move-copy-files-multiple-sub-folders-single-folder/)
+
+```
+cd parent-of-subfolders
+for /r %d in (*) do move /Y "%d" "d:\target"
+```
+
 ## HOWTO : Shell : Print even or odd lines [source](https://unix.stackexchange.com/questions/26723/print-odd-numbered-lines-print-even-numbered-lines)
 
 Even lines
