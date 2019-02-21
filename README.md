@@ -88,5 +88,6 @@ Inspired by [overreacted](https://overreacted.io/things-i-dont-know-as-of-2018/)
 - Python : I wrote my first non-trivial script one week ago.
 - Perl : Never used it.
 - Ruby : I used it for some helper scripts around, but I constantly have to google for loops, classes, and such
-- Modern Javascript : I was fluent in JS dev during the JQuery / AngularJS (aka. Angular 1) ages, but I completely lost it. Webpack, Vue, React, etc : I played a bit with all those, I'm not convinced, and I can't spend time learning new framework / toolchain every 6 months.
+- Modern Javascript : I used to be fluent in JS dev during the JQuery / AngularJS (aka. Angular 1) ages, but I completely lost it. Webpack, Vue, React, etc : I played a bit with all those, I'm not convinced, and I can't spend time learning new framework / toolchain every 6 months.
 - Maths : I suck at it.
+- CSS : Float is a mystery to me. Heard about flexbox and grid but never tried them.
