@@ -65,6 +65,12 @@ sed -n 'p;n' /path/to/file
 
 This configuration obviously depends on a correct class naming pattern :)
 
+## WSL Notes
+
+Root FS: `%LocalAppData%\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\LocalState\rootfs`
+
+App path: `C:\Program Files\WindowsApps\CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2018.817.0_x64__79rhkp1fndgsc`
+
 ## Books
 
 | Author(s) | Title |
