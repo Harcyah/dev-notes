@@ -56,6 +56,18 @@ Odd Lines
 sed -n 'p;n' /path/to/file
 ```
 
+## HOWOT : Shell : Replace quotes
+
+Remove backquotes from $file:
+```
+sed 's/`//g' <file>
+```
+
+Replace `\'` with `''`
+```
+tr "\\\'" "''" < file1 > file2
+```
+
 ## HOWTO : Intellij : Create unit or integration tests configuration
 
 - Create JUnit run/debug configuration
