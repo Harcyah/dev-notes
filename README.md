@@ -44,6 +44,12 @@ cd parent-of-subfolders
 for /r %d in (*) do move /Y "%d" "d:\target"
 ```
 
+## HOWTO : Maven : Run a plugin execution from CLI [source](https://stackoverflow.com/questions/3166538/how-to-execute-maven-plugin-execution-directly-from-command-line/28642594)
+
+```
+>mvn <plugin group>:<plugin artifact>:<plugin goal>@<execution id>
+```
+
 ## HOWTO : Shell : Print even or odd lines [source](https://unix.stackexchange.com/questions/26723/print-odd-numbered-lines-print-even-numbered-lines)
 
 Even lines
