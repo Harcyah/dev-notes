@@ -68,7 +68,7 @@ sed -n 'p;n' /path/to/file
 sed -i '/pattern to match/d' /path/to/file
 ```
 
-## HOWOT : Shell : Replace quotes
+## HOWTO : Shell : Replace quotes
 
 Remove backquotes from $file:
 ```
@@ -88,6 +88,28 @@ tr "\\\'" "''" < file1 > file2
 - Set pattern to `^(?!.*IntegrationTest$).*$` to only run unit tests
 
 This configuration obviously depends on a correct class naming pattern :)
+
+## Shortcuts
+
+### Intellij
+
+_Many of those shortcuts are custom_
+
+- <kbd>Ctrl</kbd>+<kbd>Tab</kbd> Switch tab
+- <kbd>Ctrl</kbd>+<kbd>E</kbd> Recent files switcher
+- <kbd>Ctrl</kbd>+<kbd>B</kbd> Go to declaration / implementation
+- <kbd>Ctrl</kbd>+<kbd>N</kbd> Open class
+- <kbd>Ctrl</kbd>+<kbd>D</kbd> Duplicate line
+- <kbd>Ctrl</kbd>+<kbd>Y</kbd> Delete line
+- <kbd>Ctrl</kbd>+<kbd>/</kbd> Comment line
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>M</kbd> Extract method
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>C</kbd> Extract as constant
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd> Extract as variable
+- <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd> Open file
+- <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> Switch between test / main
+- <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> Extend selection
+- <kbd>Alt</kbd>+<kbd>F12</kbd>+<kbd>O</kbd> Open terminal
+- <kbd>F2</kbd>+<kbd>O</kbd> Go to next error / warning
 
 ## WSL Notes
 
