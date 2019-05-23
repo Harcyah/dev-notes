@@ -62,6 +62,12 @@ Odd Lines
 sed -n 'p;n' /path/to/file
 ```
 
+## HOWTO : Sed : Delete line [source](https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string)
+
+```
+sed -i '/pattern to match/d' /path/to/file
+```
+
 ## HOWOT : Shell : Replace quotes
 
 Remove backquotes from $file:
