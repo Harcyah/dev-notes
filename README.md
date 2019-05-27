@@ -1,17 +1,50 @@
 # Dev Notes
 
-## HOWTO : Git : Unstash only one particular file [source](https://stackoverflow.com/questions/15264553/how-to-unstash-only-certain-files/22555169)
+## How to ... ?
+
+### Batch : Get current batch folder [source](https://stackoverflow.com/a/16255331)
+
+```
+%~dp0
+```
+
+### Batch : Move all files from subfolders to another folder [source](https://www.winhelponline.com/blog/move-copy-files-multiple-sub-folders-single-folder/)
+
+```
+cd parent-of-subfolders
+for /r %d in (*) do move /Y "%d" "d:\target"
+```
+
+### Docker : Start bash in running container [source](https://gist.github.com/mitchwongho/11266726)
+
+```
+docker run -it <container> /bin/bash
+```
+
+### Git : Diff of the same file between 2 tags [source](https://stackoverflow.com/questions/3211809/how-to-compare-two-tags)
+
+```
+git diff v1.10.2 v2.1.0 -- path/to/my/file
+```
+
+### Git : Unstash only one particular file [source](https://stackoverflow.com/questions/15264553/how-to-unstash-only-certain-files/22555169)
 
 `git checkout stash@{0} -- <filename>`
 
-## HOWTO : MacOS : Change default shell [source](https://admin-serv.net/blog/560/debian-changer-le-shell-par-defaut-avec-chsh/)
+### MacOS : Change default shell [source](https://admin-serv.net/blog/560/debian-changer-le-shell-par-defaut-avec-chsh/)
 
 Using `zsh/5.6.2` as an example.
 
 - Add a new line like `/usr/local/Cellar/zsh/5.6.2/bin/zsh` to `/etc/shells`
 - Change shell -> `chsh -s /usr/local/Cellar/zsh/5.6.2/bin/zsh`
 
-## HOWTO : MySQL : Compute RIBPS [source](https://dba.stackexchange.com/questions/39467/mysql-performance-impact-of-increasing-innodb-buffer-pool-size)
+### Maven : Run a plugin execution from CLI [source](https://stackoverflow.com/questions/3166538/how-to-execute-maven-plugin-execution-directly-from-command-line/28642594)
+
+```
+>mvn <plugin group>:<plugin artifact>:<plugin goal>@<execution id>
+```
+
+### MySQL : Compute RIBPS [source](https://dba.stackexchange.com/questions/39467/mysql-performance-impact-of-increasing-innodb-buffer-pool-size)
 
 RIBPS stands for `Recommended InnoDB Buffer Pool Size`
 
@@ -19,38 +52,13 @@ RIBPS stands for `Recommended InnoDB Buffer Pool Size`
 SELECT CEILING(SUM(data_length+index_length)/POWER(1024,2)) RIBPS FROM information_schema.tables WHERE engine='InnoDB';
 ```
 
-## HOWTO : Docker : Start bash in running container [source](https://gist.github.com/mitchwongho/11266726)
+### Sed : Delete line [source](https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string)
 
 ```
-docker run -it <container> /bin/bash
+sed -i '/pattern to match/d' /path/to/file
 ```
 
-## HOWTO : Git : Diff of the same file between 2 tags [source](https://stackoverflow.com/questions/3211809/how-to-compare-two-tags)
-
-```
-git diff v1.10.2 v2.1.0 -- path/to/my/file
-```
-
-## HOWTO : Batch : Get current batch folder [source](https://stackoverflow.com/a/16255331)
-
-```
-%~dp0
-```
-
-## HOWTO : Batch : Move all files from subfolders to another folder [source](https://www.winhelponline.com/blog/move-copy-files-multiple-sub-folders-single-folder/)
-
-```
-cd parent-of-subfolders
-for /r %d in (*) do move /Y "%d" "d:\target"
-```
-
-## HOWTO : Maven : Run a plugin execution from CLI [source](https://stackoverflow.com/questions/3166538/how-to-execute-maven-plugin-execution-directly-from-command-line/28642594)
-
-```
->mvn <plugin group>:<plugin artifact>:<plugin goal>@<execution id>
-```
-
-## HOWTO : Shell : Print even or odd lines [source](https://unix.stackexchange.com/questions/26723/print-odd-numbered-lines-print-even-numbered-lines)
+### Shell : Print even or odd lines [source](https://unix.stackexchange.com/questions/26723/print-odd-numbered-lines-print-even-numbered-lines)
 
 Even lines
 ```
@@ -62,13 +70,7 @@ Odd Lines
 sed -n 'p;n' /path/to/file
 ```
 
-## HOWTO : Sed : Delete line [source](https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string)
-
-```
-sed -i '/pattern to match/d' /path/to/file
-```
-
-## HOWTO : Shell : Replace quotes
+### Shell : Replace quotes
 
 Remove backquotes from $file:
 ```
@@ -80,7 +82,7 @@ Replace `\'` with `''`
 tr "\\\'" "''" < file1 > file2
 ```
 
-## HOWTO : Intellij : Create unit or integration tests configuration
+### Intellij : Create unit or integration tests configuration
 
 - Create JUnit run/debug configuration
 - Use `Pattern` test kind
@@ -88,6 +90,17 @@ tr "\\\'" "''" < file1 > file2
 - Set pattern to `^(?!.*IntegrationTest$).*$` to only run unit tests
 
 This configuration obviously depends on a correct class naming pattern :)
+
+## Links
+
+### Libraries
+
+- https://github.com/j-easy/easy-batch
+- https://github.com/j-easy/easy-random
+
+### Documents
+
+- https://github.com/jlevy/the-art-of-command-line
 
 ## Shortcuts
 
