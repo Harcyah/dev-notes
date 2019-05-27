@@ -93,6 +93,10 @@ This configuration obviously depends on a correct class naming pattern :)
 
 ## Links
 
+### Tools
+
+- https://www.archunit.org/
+
 ### Libraries
 
 - https://github.com/j-easy/easy-batch
