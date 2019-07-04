@@ -18,7 +18,7 @@ for /r %d in (*) do move /Y "%d" "d:\target"
 ### Docker : Start bash in running container [source](https://gist.github.com/mitchwongho/11266726)
 
 ```
-docker run -it <container> /bin/bash
+docker exec -it <container> /bin/bash
 ```
 
 ### Git : Diff of the same file between 2 tags [source](https://stackoverflow.com/questions/3211809/how-to-compare-two-tags)
