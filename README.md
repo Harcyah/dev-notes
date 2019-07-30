@@ -31,6 +31,10 @@ git diff v1.10.2 v2.1.0 -- path/to/my/file
 
 `git checkout stash@{0} -- <filename>`
 
+### Git : Cleanup [source](https://rtyley.github.io/bfg-repo-cleaner/)
+
+`git reflog expire --expire=now --all && git gc --prune=now --aggressive`
+
 ### MacOS : Change default shell [source](https://admin-serv.net/blog/560/debian-changer-le-shell-par-defaut-avec-chsh/)
 
 Using `zsh/5.6.2` as an example.
