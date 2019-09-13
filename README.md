@@ -154,6 +154,7 @@ App path: `C:\Program Files\WindowsApps\CanonicalGroupLimited.Ubuntu18.04onWindo
 | Alan Shalloway, Scott Bain, Ken Pugh & Amir Kolsky | Essential Skills for the Agile Developer: A Guide to Better Programming and Design |
 | John Sonmez | Soft Skills: The software developer's life manual |
 | Eric Freeman, Bert Bates, Kathy Sierra, Elisabeth Robson | Head First Design Patterns: A Brain-Friendly Guide |
+| Eric Evans | Domain Driven Design |
 
 ## Things I don't know
 
