@@ -100,6 +100,7 @@ This configuration obviously depends on a correct class naming pattern :)
 ### Tools
 
 - https://www.archunit.org/
+- http://plantuml.com/fr/
 
 ### Libraries
 
