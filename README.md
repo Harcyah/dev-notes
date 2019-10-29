@@ -45,7 +45,12 @@ Using `zsh/5.6.2` as an example.
 ### Maven : Run a plugin execution from CLI [source](https://stackoverflow.com/questions/3166538/how-to-execute-maven-plugin-execution-directly-from-command-line/28642594)
 
 ```
->mvn <plugin group>:<plugin artifact>:<plugin goal>@<execution id>
+mvn <plugin group>:<plugin artifact>:<plugin goal>@<execution id>
+```
+
+### Maven : Skip tests
+```
+mvn clean package -Dmaven.test.skip 
 ```
 
 ### MySQL : Compute RIBPS [source](https://dba.stackexchange.com/questions/39467/mysql-performance-impact-of-increasing-innodb-buffer-pool-size)
