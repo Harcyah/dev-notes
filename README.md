@@ -156,6 +156,11 @@ _Many of those shortcuts are custom_
 - <kbd>Alt</kbd>+<kbd>F12</kbd>+<kbd>O</kbd> Open terminal
 - <kbd>F2</kbd>+<kbd>O</kbd> Go to next error / warning
 
+### Less
+
+- <kbd>&</kbd> Filter
+- <kbd>v</kbd> Open in editor
+
 ## WSL Notes
 
 Root FS: `%LocalAppData%\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\LocalState\rootfs`
