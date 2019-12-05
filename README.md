@@ -14,9 +14,7 @@
 
 ## Links
 
-- [icons](./links-icons.md)
-- [java](./links-java.md)
-- [misc](./links-misc.md)
+- [links](links.md)
 
 ## Misc
 
