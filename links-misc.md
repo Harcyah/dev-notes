@@ -1,4 +1,3 @@
 # Misc tools
 
-- https://www.archunit.org/
-- http://plantuml.com/fr/
+- [plantuml](http://plantuml.com/fr/)

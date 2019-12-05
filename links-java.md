@@ -1,4 +1,5 @@
 # Java related tools
 
-- https://github.com/j-easy/easy-batch
-- https://github.com/j-easy/easy-random
+- [easy-batch](https://github.com/j-easy/easy-batch)
+- [easy-random](https://github.com/j-easy/easy-random)
+- [archunit](https://www.archunit.org/)
