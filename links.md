@@ -31,3 +31,7 @@
 
 - [arrangements](http://jeux-et-mathematiques.davalan.org/mots/comb/arr/index.html)
 - [combinaisons](http://jeux-et-mathematiques.davalan.org/mots/comb/comb/index.html)
+
+# Kata
+
+- [gilded rose](https://github.com/emilybache/GildedRose-Refactoring-Kata)
