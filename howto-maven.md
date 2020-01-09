@@ -7,6 +7,13 @@ mvn <plugin group>:<plugin artifact>:<plugin goal>@<execution id>
 ```
 
 ## Skip tests
+
 ```
 mvn clean package -Dmaven.test.skip
+```
+
+## Run single test class
+
+```
+mvn -Dtest=<full.class.name.including.package> test  
 ```

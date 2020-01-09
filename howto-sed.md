@@ -6,21 +6,20 @@
 sed -i '/pattern to match/d' /path/to/file
 ```
 
-## Print even or odd lines [source](https://unix.stackexchange.com/questions/26723/print-odd-numbered-lines-print-even-numbered-lines)
-   
-Even lines
+## Print even lines [source](https://unix.stackexchange.com/questions/26723/print-odd-numbered-lines-print-even-numbered-lines)
+
 ```
 sed -n 'n;p' /path/to/file
 ```
 
-Odd Lines
+## Print odd lines
+
 ```
 sed -n 'p;n' /path/to/file
 ```
 
-## Replace quotes
+## Remove backquotes from $file
    
-Remove backquotes from $file:
 ```
 sed 's/`//g' <file>
 ```
