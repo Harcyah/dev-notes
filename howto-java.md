@@ -17,3 +17,10 @@ keytool -trustcacerts -keystore "%JAVA_HOME%/jre/lib/security/cacerts" -storepas
 keytool -trustcacerts -keystore "%JAVA_HOME%/jre/lib/security/cacerts" -storepass changeit -noprompt -importcert -alias letsencryptauthorityx3 -file lets-encrypt-x3-cross-signed.der
 keytool -trustcacerts -keystore "%JAVA_HOME%/jre/lib/security/cacerts" -storepass changeit -noprompt -importcert -alias letsencryptauthorityx4 -file lets-encrypt-x4-cross-signed.der
 ```
+
+## Enable hibernate SQL logging
+
+Add to logback.xml:
+```
+<logger name="org.hibernate.SQL" level="debug" />
+```
