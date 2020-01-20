@@ -11,6 +11,7 @@
 - [maven](./howto-maven.md)  
 - [mysql](./howto-mysql.md)  
 - [sed](./howto-sed.md)  
+- [wget](./howto-wget.md)  
 
 ## Links
 
