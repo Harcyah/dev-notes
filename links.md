@@ -1,12 +1,14 @@
 # Tools
 
 - [plantuml](http://plantuml.com/fr/)
+- [recutils](https://www.gnu.org/software/recutils/manual/)
 
 # Java
 
 - [easy-batch](https://github.com/j-easy/easy-batch)
 - [easy-random](https://github.com/j-easy/easy-random)
 - [archunit](https://www.archunit.org/)
+- [rocker](https://github.com/fizzed/rocker)
 
 # Icons
 
