@@ -24,6 +24,8 @@
 
 ## Shortcuts
 
+- [firefox](./shortcuts-firefox.md)  
 - [intellij](./shortcuts-intellij.md)  
 - [less](./shortcuts-less.md)
+- [windows](./shortcuts-windows.md)
 - [zsh](./shortcuts-zsh.md)
