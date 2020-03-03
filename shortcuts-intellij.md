@@ -9,6 +9,7 @@ _Many of those shortcuts are custom_
 - <kbd>Ctrl</kbd>+<kbd>D</kbd> Duplicate line
 - <kbd>Ctrl</kbd>+<kbd>Y</kbd> Delete line
 - <kbd>Ctrl</kbd>+<kbd>/</kbd> Comment line
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> Next error
 - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>M</kbd> Extract method
 - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>C</kbd> Extract as constant
 - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd> Extract as variable
