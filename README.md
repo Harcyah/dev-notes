@@ -7,6 +7,7 @@
 - [git](./howto-git.md)  
 - [intellij](./howto-intellij.md)  
 - [java](./howto-java.md)  
+- [jq](./howto-jq.md)  
 - [macos](./howto-macos.md)  
 - [maven](./howto-maven.md)  
 - [mysql](./howto-mysql.md)  
