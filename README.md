@@ -3,6 +3,7 @@
 ## How to ... ?
 
 - [batch](./howto-batch.md)  
+- [bookmarklets](./howto-bookmarklets.md)  
 - [docker](./howto-docker.md)  
 - [git](./howto-git.md)  
 - [intellij](./howto-intellij.md)  
