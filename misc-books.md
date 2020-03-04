@@ -2,8 +2,8 @@
 
 | Author(s) | Title |
 |---|---|
-| Alan Shalloway, Scott Bain, Ken Pugh & Amir Kolsky | Essential Skills for the Agile Developer: A Guide to Better Programming and Design |
-| Andrew Hunt | The Pragmatic Programmer: From Journeyman to Master |
+| Alan Shalloway, Scott Bain, Ken Pugh, Amir Kolsky | Essential Skills for the Agile Developer: A Guide to Better Programming and Design |
+| David Thomas, Andrew Hunt | The Pragmatic Programmer: From Journeyman to Master |
 | Edmond Lau | The Effective Engineer |
 | Eric Evans | Domain Driven Design |
 | Eric Freeman, Bert Bates, Kathy Sierra, Elisabeth Robson | Head First Design Patterns: A Brain-Friendly Guide |
@@ -15,3 +15,4 @@
 | Sandro Mancuso | The Software Craftsman: Professionalism, Pragmatism, Pride |
 | Steve Freeman | Growing Object-Oriented Software, Guided by Tests |
 | Steve McConnell | Code Complete |
+| Michael Feathers | Working Effectively with Legacy Code |
