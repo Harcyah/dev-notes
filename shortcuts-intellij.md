@@ -9,7 +9,6 @@ _Many of those shortcuts are custom_
 - <kbd>Ctrl</kbd>+<kbd>D</kbd> Duplicate line
 - <kbd>Ctrl</kbd>+<kbd>Y</kbd> Delete line
 - <kbd>Ctrl</kbd>+<kbd>/</kbd> Comment line
-- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> Next error
 - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>M</kbd> Extract method
 - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>C</kbd> Extract as constant
 - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd> Extract as variable
@@ -17,4 +16,5 @@ _Many of those shortcuts are custom_
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> Switch between test / main
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> Extend selection
 - <kbd>Alt</kbd>+<kbd>F12</kbd>+<kbd>O</kbd> Open terminal
-- <kbd>F2</kbd>+<kbd>O</kbd> Go to next error / warning
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> Next error in next file
+- <kbd>F2</kbd> Go to next error / warning in file
