@@ -16,5 +16,6 @@ _Many of those shortcuts are custom_
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> Switch between test / main
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> Extend selection
 - <kbd>Alt</kbd>+<kbd>F12</kbd>+<kbd>O</kbd> Open terminal
-- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> Next error in next file
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Up</kbd> Previous build error
+- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Down</kbd> Next build error
 - <kbd>F2</kbd> Go to next error / warning in file
