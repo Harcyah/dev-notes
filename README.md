@@ -12,6 +12,7 @@
 - [macos](./howto-macos.md)  
 - [maven](./howto-maven.md)  
 - [mysql](./howto-mysql.md)  
+- [postgresql](./howto-postgresql.md)  
 - [sed](./howto-sed.md)  
 - [wget](./howto-wget.md)  
 
