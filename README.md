@@ -16,6 +16,7 @@
 - [postgresql](./howto-postgresql.md)  
 - [sed](./howto-sed.md)  
 - [wget](./howto-wget.md)  
+- [zsh](./howto-zsh.md)  
 
 ## Links
 
