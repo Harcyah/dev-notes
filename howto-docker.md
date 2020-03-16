@@ -5,3 +5,9 @@
 ```
 docker exec -it <container> /bin/bash
 ```
+
+## Access host from container
+
+```
+host.docker.internal
+```
