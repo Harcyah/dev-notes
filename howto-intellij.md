@@ -1,6 +1,6 @@
 # How to ... Intellij !
 
-##  : Create unit or integration tests configuration
+## Create unit or integration tests configuration
 
 - Create JUnit run/debug configuration
 - Use `Pattern` test kind
