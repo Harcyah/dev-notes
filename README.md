@@ -14,6 +14,7 @@
 - [misc](./howto-misc.md)  
 - [mysql](./howto-mysql.md)  
 - [postgresql](./howto-postgresql.md)  
+- [raspberry](./howto-raspberry.md)  
 - [sed](./howto-sed.md)  
 - [wget](./howto-wget.md)  
 - [zsh](./howto-zsh.md)  
