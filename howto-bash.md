@@ -6,3 +6,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 ```
+
+## Readonly variables
+
+```
+local -r TEXT="lorem ipsum"
+```
