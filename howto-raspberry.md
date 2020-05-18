@@ -20,7 +20,7 @@ Revision        : 000e
 Serial          : 00000000f044c0ed
 ```
 
-=> "Model B Revision 2.0 512MB, (Sony)"
+=> "Model B Revision 2.0 512 MB, (Sony)"
 
 ## GPIO
 

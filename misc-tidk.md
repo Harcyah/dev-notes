@@ -2,7 +2,7 @@
 
 Inspired by [overreacted](https://overreacted.io/things-i-dont-know-as-of-2018/)
 
-- Non-trivial bash scripting. Commands such as `xargs` are complete mystery to me. I can't remember how to write most of conditionals, I have to google it every time.
+- Non-trivial bash scripting. Commands such as `xargs` are complete mystery to me. I can't remember how to write most of the conditionals, I have to google it every time.
 - Low-level languages : I once wrote Assembly (which flavor ?) in school, like 15 years ago.
 - Networking : I know the big picture, but most of the protocols are complete black boxes to me. I collapse in tears every time I have to configure anything related to networking.
 - AWS / Azure : I played a bit with both, I vaguely know how to start a docker container, and configure properties or fire basic services, but that's all.
