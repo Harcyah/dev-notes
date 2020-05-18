@@ -9,6 +9,7 @@
 - [git](./howto-git.md)  
 - [intellij](./howto-intellij.md)  
 - [java](./howto-java.md)  
+- [jenkins](./howto-jenkins.md)  
 - [jq](./howto-jq.md)  
 - [macos](./howto-macos.md)  
 - [maven](./howto-maven.md)  
