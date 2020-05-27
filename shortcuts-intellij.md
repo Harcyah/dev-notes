@@ -8,7 +8,6 @@ _Some of these are custom_
 - <kbd>Ctrl</kbd>+<kbd>N</kbd> Open class
 - <kbd>Ctrl</kbd>+<kbd>D</kbd> Duplicate line
 - <kbd>Ctrl</kbd>+<kbd>Y</kbd> Delete line
-- <kbd>Ctrl</kbd>+<kbd>/</kbd> Comment line
 - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>M</kbd> Extract method
 - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>C</kbd> Extract as constant
 - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd> Extract as variable
@@ -19,7 +18,5 @@ _Some of these are custom_
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> Extend selection
 - <kbd>Alt</kbd>+<kbd>F12</kbd> Open terminal
 - <kbd>Ctrl</kbd>+<kbd>F12</kbd> Open structure of the current file
-- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Up</kbd> Previous build error
-- <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Down</kbd> Next build error
 - <kbd>F2</kbd> Go to next error / warning in file
 - <kbd>Middleclick</kbd> Go to implementation 
