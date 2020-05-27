@@ -8,3 +8,4 @@
 - <kbd>Win</kbd>+<kbd>Ctrl</kbd>+<kbd>F4</kbd> Delete current virtual desktop
 - <kbd>Win</kbd>+<kbd>Ctrl</kbd>+<kbd>Arrows</kbd> Change virtual desktop
 - <kbd>F4</kbd> Search bar
+- <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Esc</kbd> Run task manager
