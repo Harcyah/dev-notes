@@ -19,6 +19,7 @@
 - [raspberry](./howto-raspberry.md)  
 - [sed](./howto-sed.md)  
 - [wget](./howto-wget.md)  
+- [zsh](./howto-wsl.md)  
 - [zsh](./howto-zsh.md)  
 
 ## Links
