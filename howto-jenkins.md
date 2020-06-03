@@ -23,3 +23,17 @@ def cred = creds[0];
 
 def pkey = cred.getPrivateKey();
 ```
+
+## Batch delete jobs
+
+```groovy
+import jenkins.model.*
+
+def matchedJobs = Jenkins.instance.items.findAll { job ->
+    job.name =~ /.*my-regex.*/
+}
+    
+matchedJobs.each { job ->
+    job.delete()
+}
+```
