@@ -26,6 +26,8 @@ def pkey = cred.getPrivateKey();
 
 ## Batch delete jobs
 
+Using jenkins console at `http://host/script`:
+
 ```groovy
 import jenkins.model.*
 
