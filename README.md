@@ -2,6 +2,7 @@
 
 ## How to ... ?
 
+- [android](./howto-android.md)  
 - [bash](./howto-bash.md)  
 - [batch](./howto-batch.md)  
 - [bookmarklets](./howto-bookmarklets.md)  
