@@ -8,6 +8,7 @@
 - [bookmarklets](./howto-bookmarklets.md)  
 - [docker](./howto-docker.md)  
 - [git](./howto-git.md)  
+- [gradle](./howto-gradle.md)  
 - [intellij](./howto-intellij.md)  
 - [java](./howto-java.md)  
 - [jenkins](./howto-jenkins.md)  
