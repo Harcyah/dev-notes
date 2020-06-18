@@ -5,3 +5,7 @@
 ```
 head -c 10M < /dev/urandom > <file>
 ```
+or
+```
+dd if=/dev/urandom of=<file> bs=5MB count=1
+```
