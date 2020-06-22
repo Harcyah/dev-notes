@@ -6,6 +6,7 @@
 - [bash](./howto-bash.md)  
 - [batch](./howto-batch.md)  
 - [bookmarklets](./howto-bookmarklets.md)  
+- [compress](./howto-compress.md)  
 - [docker](./howto-docker.md)  
 - [git](./howto-git.md)  
 - [gradle](./howto-gradle.md)  
