@@ -20,6 +20,7 @@
 - [mysql](./howto-mysql.md)  
 - [postgresql](./howto-postgresql.md)  
 - [raspberry](./howto-raspberry.md)  
+- [ffmpeg](./howto-ffmpeg.md)  
 - [sed](./howto-sed.md)  
 - [wget](./howto-wget.md)  
 - [zsh](./howto-wsl.md)  
