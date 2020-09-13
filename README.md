@@ -24,6 +24,7 @@
 - [sed](./howto-sed.md)  
 - [wget](./howto-wget.md)  
 - [zsh](./howto-wsl.md)  
+- [xmlstarlet](./howto-xmlstarlet.md)  
 - [zsh](./howto-zsh.md)  
 
 ## Links
