@@ -8,6 +8,7 @@
 - [bookmarklets](./howto-bookmarklets.md)  
 - [compress](./howto-compress.md)  
 - [docker](./howto-docker.md)  
+- [ffmpeg](./howto-ffmpeg.md)  
 - [git](./howto-git.md)  
 - [gradle](./howto-gradle.md)  
 - [intellij](./howto-intellij.md)  
@@ -18,13 +19,13 @@
 - [maven](./howto-maven.md)  
 - [misc](./howto-misc.md)  
 - [mysql](./howto-mysql.md)  
+- [notepad++](./howto-notepad++.md)  
 - [postgresql](./howto-postgresql.md)  
 - [raspberry](./howto-raspberry.md)  
-- [ffmpeg](./howto-ffmpeg.md)  
 - [sed](./howto-sed.md)  
 - [wget](./howto-wget.md)  
-- [zsh](./howto-wsl.md)  
 - [xmlstarlet](./howto-xmlstarlet.md)  
+- [wsl](./howto-wsl.md)  
 - [zsh](./howto-zsh.md)  
 
 ## Links
