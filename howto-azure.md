@@ -17,3 +17,13 @@ az acr repository show-tags --name my_container_registry --repository my_contain
 ```
 az acr repository delete --name my_container_registry --image my_container_repository:<tag> --yes
 ```
+
+## Create a multiline secret
+
+The web azure portal allows you to input a multiline value when creating/updating a secret but all breaks are removed afterwards ...
+
+Let's use the cli instead:
+
+```
+az keyvault secret set --vault-name my_vault --name my_secret -f /path/to/my/file
+```
