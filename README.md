@@ -20,6 +20,7 @@
 - [maven](./howto-maven.md)  
 - [misc](./howto-misc.md)  
 - [mysql](./howto-mysql.md)  
+- [nano](./howto-nano.md)  
 - [notepad++](./howto-notepad++.md)  
 - [postgresql](./howto-postgresql.md)  
 - [raspberry](./howto-raspberry.md)  
