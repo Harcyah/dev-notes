@@ -53,3 +53,18 @@ __Results:__
 | Fat | Black | Tiger |
 | Fat | Black | Fly |
 
+## Get databases sizes
+
+__SQL:__
+```sql
+SELECT
+   datname as database_name,
+   pg_database_size(datname) as database_size,
+   pg_size_pretty(pg_database_size(datname)) as database_size_pretty
+FROM pg_database
+WHERE datistemplate = false
+AND datname != 'azure_maintenance'
+ORDER BY database_size DESC
+```
+
+Note: `datname != 'azure_maintenance'` skips azure protected database.
