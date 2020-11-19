@@ -68,3 +68,17 @@ ORDER BY database_size DESC
 ```
 
 Note: `datname != 'azure_maintenance'` skips azure protected database.
+
+## Get tables sizes
+
+__SQL:__
+```sql
+SELECT table_name,
+       pg_total_relation_size(table_name) as size,
+       pg_size_pretty( pg_total_relation_size(table_name) ) as pretty_size
+FROM (
+    SELECT table_name FROM information_schema.tables
+    WHERE table_schema = 'public'
+    AND table_type = 'BASE TABLE') as table_names
+ORDER BY table_name
+```
