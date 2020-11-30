@@ -12,3 +12,33 @@ set -euo pipefail
 ```
 local -r TEXT="lorem ipsum"
 ```
+
+## Parameters
+
+Fail if parameter isn't set: 
+```
+VERSION=${1:?"Please give a parent version as arg 1"}
+```
+
+Use default value if parameter isn't set: 
+```
+VERSION=${1:-Whatever}
+```
+
+## Case convert
+
+VAR="Hello World"
+echo ${VAR,} 
+=> "hello World"
+
+VAR="Hello World"
+echo ${VAR,,}
+=> "hello world"
+
+VAR="hello world"
+echo ${VAR^^}
+=> "Hello world"
+
+VAR="hello world"
+echo ${VAR^^}
+=> "HELLO WORLD"
