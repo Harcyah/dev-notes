@@ -25,6 +25,7 @@
 - [postgresql](./howto-postgresql.md)  
 - [raspberry](./howto-raspberry.md)  
 - [sed](./howto-sed.md)  
+- [sheets](./howto-sheets.md)  
 - [sql](./howto-sql.md)  
 - [wget](./howto-wget.md)  
 - [xmlstarlet](./howto-xmlstarlet.md)  
