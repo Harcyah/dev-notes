@@ -38,7 +38,6 @@
 
 ## Misc
 
-- [books](./misc-books.md)
 - [things i don't know](./misc-tidk.md)
 
 ## Shortcuts
