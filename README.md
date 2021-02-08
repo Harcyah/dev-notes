@@ -32,10 +32,6 @@
 - [wsl](./howto-wsl.md)  
 - [zsh](./howto-zsh.md)  
 
-## Links
-
-- [links](links.md)
-
 ## Misc
 
 - [things i don't know](./misc-tidk.md)
