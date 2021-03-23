@@ -12,6 +12,7 @@
 - [ffmpeg](./howto-ffmpeg.md)  
 - [git](./howto-git.md)  
 - [gradle](./howto-gradle.md)  
+- [h2](./howto-h2.md)  
 - [intellij](./howto-intellij.md)  
 - [java](./howto-java.md)  
 - [jenkins](./howto-jenkins.md)  
