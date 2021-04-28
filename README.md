@@ -29,8 +29,8 @@
 - [sheets](./howto-sheets.md)  
 - [sql](./howto-sql.md)  
 - [wget](./howto-wget.md)  
-- [xmlstarlet](./howto-xmlstarlet.md)  
 - [wsl](./howto-wsl.md)  
+- [xmlstarlet](./howto-xmlstarlet.md)  
 - [zsh](./howto-zsh.md)  
 
 ## Misc
@@ -42,5 +42,6 @@
 - [firefox](./shortcuts-firefox.md)  
 - [intellij](./shortcuts-intellij.md)  
 - [less](./shortcuts-less.md)
+- [nano](./shortcuts-nano.md)
 - [windows](./shortcuts-windows.md)
 - [zsh](./shortcuts-zsh.md)
