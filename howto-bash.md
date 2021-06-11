@@ -42,3 +42,9 @@ echo ${VAR^^}
 VAR="hello world"
 echo ${VAR^^}
 => "HELLO WORLD"
+
+## Calculate factorials
+
+```
+seq -s\* 10 | bc
+```
