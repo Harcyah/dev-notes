@@ -12,6 +12,12 @@ az acr repository list --name my_container_registry
 az acr repository show-tags --name my_container_registry --repository my_container_repository --orderby time_desc
 ```
 
+## List locations
+
+```
+az account list-locations | jq '.[].name'
+```
+
 ## Delete a tag
 
 ```
