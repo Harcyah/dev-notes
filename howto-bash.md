@@ -48,3 +48,15 @@ echo ${VAR^^}
 ```
 seq -s\* 10 | bc
 ```
+
+## Dates
+
+Yesterday:
+```
+date +%Y-%m-%d --date="-1 day"
+```
+
+Tomorrow:
+```
+date +%Y-%m-%d --date="+1 day"
+```
